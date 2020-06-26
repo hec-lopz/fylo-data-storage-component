@@ -1,0 +1,22 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "frontend",
+    "html"
+  ],
+  "author": "Hector Lopez",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-pug": "^2.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
