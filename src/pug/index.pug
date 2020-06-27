@@ -3,6 +3,27 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Fronend Mentor 1
+        link(rel="stylesheet", href="css/styles.css")
+        title Frontend Mentor 1
     body
-    
+        main
+            .container
+                .options
+                    figure.logo
+                        img(src="assets/images/logo.svg" alt="Fylo Logo")
+                    .options__icon-container
+                        i
+                            img.options__icon(src="assets/images/icon-document.svg", alt="Save")
+                        i
+                            img.options__icon(src="assets/images/icon-folder.svg", alt="Open")
+                        i
+                            img.options__icon(src="assets/images/icon-upload.svg", alt="Upload")
+                .progress-container
+                    p You've used #[b 815 gb] of your storage
+                    .progress-container__bar-container
+                        .progress-container__bar 
+                        .labels
+                            b 0 gb
+                            b 1000 gb
+                    .counter
+                        span 185 #[b gb left]
