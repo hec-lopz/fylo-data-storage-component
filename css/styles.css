@@ -223,3 +223,68 @@ main .container {
   color: #9898a0;
   margin-left: 10px;
 }
+@media screen and (min-width: 376px) {
+  body {
+    background-color: #0c122c;
+  }
+  main {
+    background-image: url("../assets/images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  main .container {
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -o-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  .options {
+    max-width: 350px;
+  }
+  .progress-container {
+    max-width: 550px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 610px) {
+  main .container {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .container {
+    max-width: 90%;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-direction: initial;
+    -ms-flex-direction: initial;
+    flex-direction: initial;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  main .container .options {
+    margin-right: 20px;
+  }
+  .progress-container {
+    margin-top: 50px;
+  }
+  main {
+    background-position: bottom right;
+  }
+}
