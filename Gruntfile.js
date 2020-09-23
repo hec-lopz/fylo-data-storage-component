@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         stylus:{
             compile: {
                 options: {
-                    compress: false,
+                    compress: true,
                     paths: ['src/stylus/'],
                     import: [
                         "nib/*"
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
         pug:{
             compile:{
                 options: {
-                    pretty:true,
+                    pretty:false,
                 },
                 files: {
                     './dist/index.html' : ['src/pug/index.pug', '!src/pug/_*.pug']
