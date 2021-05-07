@@ -14,7 +14,7 @@
   "author": "Hector Lopez",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "^1.1.0",
+    "grunt": "^1.3.0",
     "grunt-contrib-pug": "^2.0.0",
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-watch": "^1.1.0"
